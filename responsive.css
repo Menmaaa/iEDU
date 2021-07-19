@@ -1,0 +1,35 @@
+@media only screen and (max-width: 740px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 400px;
+        transition: all 0.5s ease-in-out;
+    }
+    .rightNav{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-main{
+    flex-direction: column-reverse;
+    padding-top: 60px;
+    text-align: center;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .form-input{
+        max-width: 87%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{ 
+        height: 50px;
+    }
+    .nav-collapse{
+        opacity: 0;
+    }
+}
